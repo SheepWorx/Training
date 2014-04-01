@@ -9,7 +9,7 @@ namespace Abstraction_and_Encapsulation.Bad
     public class Product
     {
         /*
-         * It's considered bad practice to make variables publicly accessable.
+         * It's considered bad practice to make variables publicly accessable just for the sake of making them publicly accessable
          * How can this be solved using the levels of access: Public, Protected, Internal, Protected Internal and Private
          * 
          * General practice is that small classes or structs that just wrap data, should be immutable, ie unchangeable publicly.
