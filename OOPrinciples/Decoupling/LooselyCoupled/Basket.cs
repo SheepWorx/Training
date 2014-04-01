@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Decoupling.LooselyCoupled
 {
+    /// <summary>
+    /// this is a silly example and can be refactored a lot further, but for now, its fine for demonstrating decoupling (focussing on the Product Controller)
+    /// </summary>
     public class Basket
     {
         public Dictionary<string, object> BasketItems { get; private set; }
@@ -23,11 +26,7 @@ namespace Decoupling.LooselyCoupled
             try
             {
                 Product airtime = new Airtime();
-                airtime = Controller.GetProduct(airtime);
-
-                BasketItems.Add(airtime.GetType().Name, airtime);
-
-                return true;
+                return AddProduct(airtime);
             }
             catch
             {
@@ -35,16 +34,21 @@ namespace Decoupling.LooselyCoupled
             }
         }
 
+        private bool AddProduct(Product airtime)
+        {
+            airtime = Controller.GetProduct(airtime);
+
+            BasketItems.Add(airtime.GetType().Name, airtime);
+
+            return true;
+        }
+
         public bool AddAccountPayment()
         {
             try
             {
                 Product accPay = new AccountPayment();
-                accPay = Controller.GetProduct(accPay);
-
-                BasketItems.Add(accPay.GetType().Name, accPay);
-
-                return true;
+                return AddProduct(accPay);
             }
             catch
             {

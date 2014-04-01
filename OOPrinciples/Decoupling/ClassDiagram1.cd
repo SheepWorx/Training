@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Decoupling.DemoClass">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DemoClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decoupling.LooselyCoupled.AccountPayment">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LooselyCoupled\AccountPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decoupling.LooselyCoupled.Airtime">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LooselyCoupled\Airtime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decoupling.LooselyCoupled.Basket">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAQAAAAAAAAAAQIAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>LooselyCoupled\Basket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decoupling.LooselyCoupled.Product">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LooselyCoupled\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decoupling.LooselyCoupled.ProductController" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>LooselyCoupled\ProductController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Decoupling.TightlyCoupled.AccountPayment">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TightlyCoupled\AccountPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decoupling.TightlyCoupled.Airtime">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TightlyCoupled\Airtime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decoupling.TightlyCoupled.Basket">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>TightlyCoupled\Basket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decoupling.TightlyCoupled.ProductController">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>TightlyCoupled\ProductController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Decoupling.LooselyCoupled.IProductController">
+    <Position X="4.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>LooselyCoupled\IProductController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

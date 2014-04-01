@@ -9,6 +9,8 @@ namespace Decoupling.TightlyCoupled
 {
     /// <summary>
     /// basket is tightly coupled to the Product controller.. and thus untestable
+    /// 
+    /// how will we go about decoupling product controller from the basket
     /// </summary>
     public class Basket
     {
