@@ -13,6 +13,10 @@ namespace Polymorphism
             Console.WriteLine("Account Payment: Price = {0}", Price);
         }
 
+        public void IOnlyHaveThis()
+        {
+        }
+
         public override int Price
         {
             get

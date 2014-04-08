@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Inheritance.Bad
 {
+    /// <summary>
+    /// code is duplicated in both classes... not cool
+    /// </summary>
     public class Airtime
     {
         public string Name { get; set; }

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Abstraction_and_Encapsulation.Good
 {
+    /// <summary>
+    /// this is obviosly the simplest of examples. Encapsulation can go much further than this when it comes to setting access modifiers for classes.
+    /// </summary>
     public class Product
     {
         /*

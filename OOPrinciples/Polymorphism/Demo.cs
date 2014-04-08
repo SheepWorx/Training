@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
+    /// <summary>
+    /// a simple demo to show the power of polymorphism. just because ure casting a child class to its parent, does not mean that it becomes the parent
+    /// you'll simply only have access to the parent's properties, vars and methods.
+    /// 
+    /// Liskov's Substitution Principle also comes into play here (to be discussed at a later stage)
+    /// </summary>
     public class Demo
     {
         [STAThread]
@@ -24,6 +30,8 @@ namespace Polymorphism
 
             Airtime airtime = new Airtime();
             DisplayPrice(airtime);
+
+
         }
 
         private static void DisplayPrice(Product product)
