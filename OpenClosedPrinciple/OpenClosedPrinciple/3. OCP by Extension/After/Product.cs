@@ -16,7 +16,7 @@ namespace OpenClosedPrinciple._3._OCP_by_Extension.After
         public string Name { get; set; }
         public decimal Amount { get; set; }
 
-        public virtual string GetProductDescription()
+        public string GetProductDescription()
         {
             return string.Format("Product: {0} costs {1}", Name, Amount);
         }

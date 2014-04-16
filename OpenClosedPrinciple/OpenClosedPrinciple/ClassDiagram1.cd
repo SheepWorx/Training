@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OpenClosedPrinciple._1._OCP_by_Interfaces__Composition_.After.DBLogger" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAABAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>1. OCP by Interfaces\After\DBLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OpenClosedPrinciple._1._OCP_by_Interfaces__Composition_.After.SomeService">
+    <Position X="7.25" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>1. OCP by Interfaces\After\SomeService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._1._OCP_by_Interfaces__Composition_.After.TextLogger" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAABAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>1. OCP by Interfaces\After\TextLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OpenClosedPrinciple._1._OCP_by_Composition.Before.DBLogger">
+    <Position X="12" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAABAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>1. OCP by Interfaces\Before\DBLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._1._OCP_by_Composition.Before.SomeService">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>1. OCP by Interfaces\Before\SomeService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._2._OCP_by_Inheritance.BertrandMeyer.After.AirtimeProduct">
+    <Position X="4.5" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2. OCP by Inheritance\BertrandMeyer\After\AirtimeProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._2._OCP_by_Inheritance.BertrandMeyer.After.Product">
+    <Position X="4.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2. OCP by Inheritance\BertrandMeyer\After\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._2._OCP_by_Inheritance.BertrandMeyer.Before.Product">
+    <Position X="1.75" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2. OCP by Inheritance\BertrandMeyer\Before\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._2._OCP_by_Inheritance.RobertCMartin.After.AirtimeProduct">
+    <Position X="2.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2. OCP by Inheritance\RobertCMartin\After\AirtimeProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._2._OCP_by_Inheritance.RobertCMartin.After.DefaultProduct">
+    <Position X="0.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2. OCP by Inheritance\RobertCMartin\After\DefaultProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._2._OCP_by_Inheritance.RobertCMartin.After.Product">
+    <Position X="1.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2. OCP by Inheritance\RobertCMartin\After\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._2._OCP_by_Inheritance.RobertCMartin.Before.Product">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2. OCP by Inheritance\RobertCMartin\Before\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._3._OCP_by_Extension.After.CallingApp" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3. OCP by Extension\After\CallingApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._3._OCP_by_Extension.After.ExtendedProduct" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3. OCP by Extension\After\ExtendedProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._3._OCP_by_Extension.After.Product">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3. OCP by Extension\After\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._3._OCP_by_Extension.Before.CallingApp" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3. OCP by Extension\Before\CallingApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple._3._OCP_by_Extension.Before.Product">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3. OCP by Extension\Before\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenClosedPrinciple.DemoExtension" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>DemoExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OpenClosedPrinciple._1._OCP_by_Interfaces__Composition_.After.ILogger">
+    <Position X="7.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAABAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>1. OCP by Interfaces\After\ILogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
