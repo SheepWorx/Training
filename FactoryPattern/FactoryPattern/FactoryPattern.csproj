@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90AD2669-CF07-4DD7-8B4A-430EDAC5A326}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FactoryPattern</RootNamespace>
+    <AssemblyName>FactoryPattern</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractFactory\After\Authentication\Cashier.cs" />
+    <Compile Include="AbstractFactory\After\Authentication\IUser.cs" />
+    <Compile Include="AbstractFactory\After\Authentication\MobileUser.cs" />
+    <Compile Include="AbstractFactory\After\Authentication\WebUser.cs" />
+    <Compile Include="AbstractFactory\After\Client.cs" />
+    <Compile Include="AbstractFactory\After\Factories\MobileChannel.cs" />
+    <Compile Include="AbstractFactory\After\Factories\WebChannel.cs" />
+    <Compile Include="AbstractFactory\After\Factories\IChannelFactory.cs" />
+    <Compile Include="AbstractFactory\After\Factories\POSChannel.cs" />
+    <Compile Include="AbstractFactory\After\Factories\WapChannel.cs" />
+    <Compile Include="AbstractFactory\After\Payment\Card.cs" />
+    <Compile Include="AbstractFactory\After\Payment\Cash.cs" />
+    <Compile Include="AbstractFactory\After\Payment\IMethodOfPayment.cs" />
+    <Compile Include="AbstractFactory\After\Payment\Wallet.cs" />
+    <Compile Include="AbstractFactory\After\Receipt\DefaultReceipt.cs" />
+    <Compile Include="AbstractFactory\After\Receipt\EmailReceipt.cs" />
+    <Compile Include="AbstractFactory\After\Receipt\IReceipt.cs" />
+    <Compile Include="AbstractFactory\After\Receipt\SmsReceipt.cs" />
+    <Compile Include="AbstractFactory\Before\Card.cs" />
+    <Compile Include="AbstractFactory\Before\Cash.cs" />
+    <Compile Include="AbstractFactory\Before\Cashier.cs" />
+    <Compile Include="AbstractFactory\Before\Client.cs" />
+    <Compile Include="AbstractFactory\Before\EmailReceipt.cs" />
+    <Compile Include="AbstractFactory\Before\DefaultReceipt.cs" />
+    <Compile Include="AbstractFactory\Before\MobileUser.cs" />
+    <Compile Include="AbstractFactory\Before\SmsReceipt.cs" />
+    <Compile Include="AbstractFactory\Before\Wallet.cs" />
+    <Compile Include="AbstractFactory\Before\WebUser.cs" />
+    <Compile Include="FactoryMethod\After\AccountPayment.cs" />
+    <Compile Include="FactoryMethod\After\AccountPaymentBasketFactory.cs" />
+    <Compile Include="FactoryMethod\After\Airtime.cs" />
+    <Compile Include="FactoryMethod\After\AirtimeBasketFactory.cs" />
+    <Compile Include="FactoryMethod\After\Basket.cs" />
+    <Compile Include="FactoryMethod\After\BasketFactory.cs" />
+    <Compile Include="FactoryMethod\After\Client.cs" />
+    <Compile Include="FactoryMethod\After\Electricity.cs" />
+    <Compile Include="FactoryMethod\After\ElectricityBasketFactory.cs" />
+    <Compile Include="FactoryMethod\After\IBasket.cs" />
+    <Compile Include="FactoryMethod\After\IProduct.cs" />
+    <Compile Include="FactoryMethod\Before\AccountPayment.cs" />
+    <Compile Include="FactoryMethod\Before\Airtime.cs" />
+    <Compile Include="FactoryMethod\Before\Basket.cs" />
+    <Compile Include="FactoryMethod\Before\Client.cs" />
+    <Compile Include="FactoryMethod\Before\Electricity.cs" />
+    <Compile Include="FactoryMethod\Before\IProduct.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleFactory\After\AccountPayment.cs" />
+    <Compile Include="SimpleFactory\After\Airtime.cs" />
+    <Compile Include="SimpleFactory\After\Client.cs" />
+    <Compile Include="SimpleFactory\After\Electricity.cs" />
+    <Compile Include="SimpleFactory\After\IProduct.cs" />
+    <Compile Include="SimpleFactory\After\ProductFactory.cs" />
+    <Compile Include="SimpleFactory\Before\AccountPayment.cs" />
+    <Compile Include="SimpleFactory\Before\Airtime.cs" />
+    <Compile Include="SimpleFactory\Before\Client.cs" />
+    <Compile Include="SimpleFactory\Before\Electricity.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
