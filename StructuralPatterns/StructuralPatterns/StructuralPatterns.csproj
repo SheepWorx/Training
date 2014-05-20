@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F7D2B257-87DF-4834-81DE-09E5B700D662}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>StructuralPatterns</RootNamespace>
     <AssemblyName>StructuralPatterns</AssemblyName>
@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <StartupObject>StructuralPatterns.Composite.DemoComposite</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,11 +55,18 @@
     <Compile Include="Adapter\Before\Vendor1.cs" />
     <Compile Include="Adapter\Before\IVendor.cs" />
     <Compile Include="Adapter\Before\NewVendor.cs" />
+    <Compile Include="Composite\After\Client.cs" />
+    <Compile Include="Composite\After\RetailItem.cs" />
+    <Compile Include="Composite\After\Product.cs" />
+    <Compile Include="Composite\After\Parent.cs" />
+    <Compile Include="Composite\Before\Client.cs" />
+    <Compile Include="Composite\Before\Product.cs" />
+    <Compile Include="Composite\Before\Vendor.cs" />
+    <Compile Include="Composite\Before\ProductType.cs" />
+    <Compile Include="DemoComposite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Bridge\" />
-    <Folder Include="Composite\" />
     <Folder Include="Decorator\" />
     <Folder Include="Facade\" />
     <Folder Include="Proxy\" />
