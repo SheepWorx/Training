@@ -63,11 +63,13 @@
     <Compile Include="Composite\Before\Product.cs" />
     <Compile Include="Composite\Before\Vendor.cs" />
     <Compile Include="Composite\Before\ProductType.cs" />
-    <Compile Include="DemoComposite.cs" />
+    <Compile Include="Decorator\Before\Client.cs" />
+    <Compile Include="Decorator\Before\HolidayItem.cs" />
+    <Compile Include="Demo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Decorator\" />
+    <Folder Include="Decorator\After\" />
     <Folder Include="Facade\" />
     <Folder Include="Proxy\" />
   </ItemGroup>

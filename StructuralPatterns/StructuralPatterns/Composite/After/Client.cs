@@ -7,7 +7,12 @@ using System.Threading.Tasks;
 namespace StructuralPatterns.Composite.After
 {
     /// <summary>
-    /// add comments here
+    /// one of the many advantages of the composite pattern that i love is that you can now swap parents around, which you couldnt before.
+    /// 
+    /// for any infinate number of parents, there will always be one leaf for a single path... which is a much simpler approach than what we used in the before code sample.
+    /// 
+    /// also demonstrated here is that the actual the logic to handle display of the object has been delegated to the pattern. now, this is not part of the pattern but it 
+    /// does demonstrate the power of it. That you can easily implement this because the parents can be interrogated recursively.
     /// </summary>
     public class Client
     {
