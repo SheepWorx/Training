@@ -63,16 +63,19 @@
     <Compile Include="Composite\Before\Product.cs" />
     <Compile Include="Composite\Before\Vendor.cs" />
     <Compile Include="Composite\Before\ProductType.cs" />
+    <Compile Include="Decorator\After\AdditionalTravelPackage.cs" />
+    <Compile Include="Decorator\After\Client.cs" />
+    <Compile Include="Decorator\After\Decorator.cs" />
+    <Compile Include="Decorator\After\DefaultPackage.cs" />
+    <Compile Include="Decorator\After\HolidayItem.cs" />
+    <Compile Include="Decorator\After\MealsIncludedPackage.cs" />
+    <Compile Include="Decorator\After\UpgradedFlightPackage.cs" />
     <Compile Include="Decorator\Before\Client.cs" />
     <Compile Include="Decorator\Before\HolidayItem.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Decorator\After\" />
-    <Folder Include="Facade\" />
-    <Folder Include="Proxy\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

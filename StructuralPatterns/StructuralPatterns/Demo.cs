@@ -26,7 +26,13 @@ namespace StructuralPatterns.Composite
             Console.WriteLine("Before");
             Console.WriteLine(client.HolidayPackageBuilder());
 
-            
+            Decorator.After.Client clientAfter = new Decorator.After.Client();
+            Console.WriteLine("After Full");
+            Console.WriteLine(clientAfter.BuildFullPackage());
+
+            Console.WriteLine("After Partial");
+            Console.WriteLine(clientAfter.BuildPartialPackage()); 
+
             Console.ReadKey();
         }
 
